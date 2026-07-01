@@ -1,0 +1,33 @@
+# Builds
+builds/
+unity/Project/Library/
+unity/Project/Temp/
+unity/Project/Logs/
+unity/Project/UserSettings/
+unity/Project/*.csproj
+unity/Project/*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+*.suo
+*.user
+.vs/
+
+# Assets source
+assets-source/Blender/*.blend1
+assets-source/Photoshop/*.psb
+
+# Build artifacts
+**/bin/
+**/obj/
+**/node_modules/
+
+# Tests
+tests/TestResults/
+*.trx

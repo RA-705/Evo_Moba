@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Evo.Foundation\src\Evo.Foundation\Evo.Foundation.csproj" />
+    <ProjectReference Include="..\..\..\Evo.Core\src\Evo.Core\Evo.Core.csproj" />
+    <ProjectReference Include="..\..\..\Evo.Shared\src\Evo.Shared\Evo.Shared.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
