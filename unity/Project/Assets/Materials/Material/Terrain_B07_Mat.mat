@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain_B07_Mat
+  m_Shader: {fileID: 4800000, guid: 92719d16a6d70184796c90577cfb6b5a, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _LightMap:
+        m_Texture: {fileID: 2800000, guid: f12f72e54b0af1344b3d54482398c05e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Tex1:
+        m_Texture: {fileID: 2800000, guid: 335333dd148e59140a43c80abd11aabc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Tex2:
+        m_Texture: {fileID: 2800000, guid: 8f68361b81a249f47a074b536d8ce9b0, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+      _WaterMask:
+        m_Texture: {fileID: 2800000, guid: aa57210b46f2fca4da2ceffd8eea9898, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WaterTex:
+        m_Texture: {fileID: 2800000, guid: 6a97f782e33a603499eee45016888d9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Light: 2
+      _MMultiplier: 2
+      _MaxReflectDotRH: 0.3
+      _Metallic: 0
+      _Mode: 0
+      _MotionScale: 0.01
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReflectInstensity: 1
+      _ReflectPow: 3.34
+      _ReflectRange: 1
+      _ReflectScale: 1.93
+      _Scroll2X: 1
+      _Scroll2Y: 0
+      _ScrollX: 1
+      _ScrollY: 0
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SunPow: 0.83
+      _Theta: 1.9
+      _TwistValue: 0.3
+      _UVSec: 0
+      _WaterOffsetScale: 14.35
+      _WaterOffsetScale2: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _MainColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _ReflectVector: {r: -0.3, g: 1, b: -0.3, a: 1}
+      _SkyColor: {r: 0.24158953, g: 0.3757385, b: 0.5754717, a: 1}
+      _SunColor: {r: 0.64627093, g: 0.9716981, b: 0.9684774, a: 1}
+      _SunDir: {r: 0, g: 1, b: 10, a: 1}
+      _UVSpeed: {r: 0.16, g: 0.185, b: 0.14, a: 0.11}
+      _WaterUVVect: {r: 2, g: 2, b: 5, a: 5}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pet_061_Fenri_Store
+  m_Shader: {fileID: 4800000, guid: 35b60564f62ea8149908f7f8ef87430d, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EffectTex:
+        m_Texture: {fileID: 2800000, guid: 549bc0be69c5b2b43af61b8668eaeba4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EnvTex:
+        m_Texture: {fileID: 2800000, guid: a1d64a9f300356047a160684ddbe4aa7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: be4c97a190863e2429d1fa92c4a1c160, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 0c9ba116acc5cd149916131bc41f938f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PBRTex:
+        m_Texture: {fileID: 2800000, guid: fd6845f1a00c0eb4696ba748a3fd5cdd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AO: 0.718
+      _BackLightScale: 2
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EnvReflectScale: 0.75
+      _EnvRotY: 0.5
+      _FogMaxDistance: 2
+      _FogMinDistance: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metal: 0.894
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smooth: 0
+      _SmoothnessTextureChannel: 0
+      _SpecStrength: 0.1175
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SubSurfaceColorScale: 0
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _BackLightColor: {r: 0.2830189, g: 0.16406949, b: 0.15619439, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EmitColor: {r: 0.9245283, g: 0.008286487, b: 0, a: 1}
+      _FogColor: {r: 1, g: 1, b: 1, a: 1}
+      _FogDirection: {r: 0, g: 0, b: 0, a: 1}
+      _Light2Color: {r: 0.34451762, g: 0.6723498, b: 0.9245283, a: 1}
+      _Light2Direction: {r: 0.64, g: 0.17, b: 0.99, a: 1}
+      _ShadowColor: {r: 0.5566038, g: 0.21180168, b: 0.07088822, a: 1}
+      _SubSurfaceColor: {r: 1, g: 0.740566, b: 0.740566, a: 1}

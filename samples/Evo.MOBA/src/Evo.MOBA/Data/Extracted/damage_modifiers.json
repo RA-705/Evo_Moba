@@ -1,0 +1,114 @@
+﻿[
+    {
+        "Id":  0,
+        "Type":  "hero",
+        "Modifiers":  {
+                          "Base":  1,
+                          "Tower":  1,
+                          "Cannon":  1,
+                          "Monster":  1,
+                          "Hero":  1,
+                          "Spring":  0,
+                          "Range":  1,
+                          "Melee":  1
+                      }
+    },
+    {
+        "Id":  1,
+        "Type":  "monster",
+        "Modifiers":  {
+                          "Base":  1,
+                          "Tower":  1,
+                          "Cannon":  1,
+                          "Monster":  1,
+                          "Hero":  1,
+                          "Spring":  0,
+                          "Range":  1,
+                          "Melee":  1
+                      }
+    },
+    {
+        "Id":  2,
+        "Type":  "melee",
+        "Modifiers":  {
+                          "Base":  0.8,
+                          "Tower":  0.8,
+                          "Cannon":  0.91,
+                          "Monster":  1,
+                          "Hero":  0.4,
+                          "Spring":  0,
+                          "Range":  0.91,
+                          "Melee":  0.91
+                      }
+    },
+    {
+        "Id":  3,
+        "Type":  "range",
+        "Modifiers":  {
+                          "Base":  0.8,
+                          "Tower":  0.8,
+                          "Cannon":  1.27,
+                          "Monster":  1,
+                          "Hero":  0.4,
+                          "Spring":  0,
+                          "Range":  1.27,
+                          "Melee":  1.27
+                      }
+    },
+    {
+        "Id":  4,
+        "Type":  "cannon",
+        "Modifiers":  {
+                          "Base":  1.4,
+                          "Tower":  1.4,
+                          "Cannon":  1,
+                          "Monster":  1,
+                          "Hero":  0.4,
+                          "Spring":  0,
+                          "Range":  1,
+                          "Melee":  1
+                      }
+    },
+    {
+        "Id":  5,
+        "Type":  "tower",
+        "Modifiers":  {
+                          "Base":  1,
+                          "Tower":  1,
+                          "Cannon":  0.54,
+                          "Monster":  1,
+                          "Hero":  1,
+                          "Spring":  0,
+                          "Range":  0.72,
+                          "Melee":  0.91
+                      }
+    },
+    {
+        "Id":  6,
+        "Type":  "base",
+        "Modifiers":  {
+                          "Base":  1,
+                          "Tower":  1,
+                          "Cannon":  0.54,
+                          "Monster":  1,
+                          "Hero":  1,
+                          "Spring":  0,
+                          "Range":  0.72,
+                          "Melee":  0.91
+                      }
+    },
+    {
+        "Id":  7,
+        "Type":  "spring",
+        "Modifiers":  {
+                          "Base":  1,
+                          "Tower":  1,
+                          "Cannon":  0.54,
+                          "Monster":  1,
+                          "Hero":  1,
+                          "Spring":  0,
+                          "Range":  0.72,
+                          "Melee":  0.91
+                      }
+    }
+]

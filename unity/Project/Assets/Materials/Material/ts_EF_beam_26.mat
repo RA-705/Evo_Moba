@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ts_EF_beam_26
+  m_Shader: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_ShaderKeywords: _TINTCOLOR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex1:
+        m_Texture: {fileID: 2800000, guid: a49de043ea2a9c3428978c1e17029f8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex2:
+        m_Texture: {fileID: 2800000, guid: dc3fd2adf3ce59c4bb9c424bc4a5500f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.13, y: 0.26}
+    m_Floats:
+      _Brightness: 2
+      _CutOff: 0.5
+      _DestBlend: 10
+      _FadeFactor: 1
+      _IsHit: 0
+      _MMultiplier: 6
+      _Scroll2X: 0
+      _Scroll2Y: 0
+      _ScrollX: 0
+      _ScrollY: 0
+      _Speed: 0
+      _SrcBlend: 5
+      _ZTestMode: 4
+    m_Colors:
+      _Color: {r: 0.079725295, g: 0.062745094, b: 1, a: 1}
+      _HitEffectColor: {r: 1, g: 0.4, b: 0.3443, a: 1}
+      _TintColor: {r: 0.11792451, g: 0.13132776, b: 1, a: 1}
+      _UVXX: {r: 0, g: 1, b: 1, a: 1}

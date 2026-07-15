@@ -1,18 +1,31 @@
 # EVO Core
 
-Modular game engine platform. Multi-agent tactical engine foundation.
-
-## Structure
+Zero-dependency C# ECS engine + MATE AI framework. Game-agnostic core, MOBA sample included.
 
 ```
-platform/       → Foundation, Core, Shared, Tests (C# libraries)
-adapters/       → Platform adapters (Unity, etc.)
-game/           → Game-specific implementations (MOBA, etc.)
-unity/          → Unity project files
-docs/           → Architecture, ADRs, Roadmap
-tools/          → Editor tools (EVO Studio)
-scripts/        → Build and automation scripts
-assets-source/  → Source assets (Blender, Photoshop, Audio)
-builds/         → Build outputs
-tests/          → Integration and performance tests
+Solution (9 projects)
+├── platform/          ← NuGet packages (EVO.Foundation, EVO.Core, EVO.Shared)
+│   └── Evo.Tests/
+├── platform/          ← Includes MateOS.Core AI framework (NuGet)
+├── samples/           ← Sample games (Evo.Gameplay, Evo.MOBA)
+├── adapters/          ← Unity adapter (Evo.UnityAdapter)
+├── tools/             ← Dedicated server (MATE.Playground)
+└── benchmarks/        ← Performance benchmarks (BenchmarkDotNet)
+```
+
+## Core Packages
+
+| Package | Description |
+|---------|-------------|
+| **EVO.Foundation** | `Result<T>`, `Option<T>`, `Guard`, `StrongId<T>` |
+| **EVO.Core** | ECS: World, ComponentPool, ISystem, IEventBus, FixedTickLoop |
+| **EVO.Shared** | EvoVector3, blittable snapshots, zero-alloc serializer |
+| **MateOS.Core** | CognitiveCore, GoapPlanner, UtilitySelector |
+
+## Build
+
+```bash
+dotnet restore Project-EVOLUTION.sln
+dotnet build Project-EVOLUTION.sln --configuration Release
+dotnet test platform/Evo.Tests/src/Evo.Tests/Evo.Tests.csproj --configuration Release
 ```

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>MateOS.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>EVO Core</Authors>
+    <Description>Multi-Agent Tactical Engine: CognitiveCore&lt;T&gt;, GoapPlanner&lt;T&gt;, UtilitySelector&lt;T&gt;, CognitiveMemory. Build autonomous game agents with symbolic AI.</Description>
+    <PackageTags>ai;agent;goap;utility;cognitive;game;ecs</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/EVO-Core/EVO</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RootNamespace>MateOS.Core</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="CognitiveCore.cs" />
+    <Compile Include="CognitiveMemory.cs" />
+    <Compile Include="UtilitySelector.cs" />
+    <Compile Include="GoapGoal.cs" />
+    <Compile Include="GoapAction.cs" />
+    <Compile Include="GoapPlanner.cs" />
+  </ItemGroup>
+
+</Project>

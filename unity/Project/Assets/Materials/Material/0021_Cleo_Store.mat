@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 0021_Cleo_Store
+  m_Shader: {fileID: 4800000, guid: 35b60564f62ea8149908f7f8ef87430d, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EffectTex:
+        m_Texture: {fileID: 2800000, guid: fe78a725efb456849978c3f4213a6820, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EnvTex:
+        m_Texture: {fileID: 2800000, guid: f5b6b631c26cfd94ea4b75cde3951b23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0a99fd2540e2f2842bf7ac51158f6264, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: fa377f18c0090ca4a81c0cdafedb954e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PBRTex:
+        m_Texture: {fileID: 2800000, guid: cf83c9516b5df5f47b114291d2d9928f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AO: 1
+      _BackLightScale: 0.41
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EnvReflectScale: 0.77
+      _EnvRotY: 0.367
+      _FogMaxDistance: 0.02
+      _FogMinDistance: 1.54
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metal: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smooth: 0.094
+      _SmoothnessTextureChannel: 0
+      _SpecStrength: 0.33
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SubSurfaceColorScale: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _BackLightColor: {r: 0.3962264, g: 0.042986836, b: 0.25667286, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EmitColor: {r: 0, g: 0.3708868, b: 1, a: 1}
+      _FogColor: {r: 0.5387235, g: 0.49568352, b: 0.745283, a: 1}
+      _FogDirection: {r: 1, g: 0, b: 0, a: 0}
+      _Light2Color: {r: 0.3160377, g: 0.9929404, b: 1, a: 1}
+      _Light2Direction: {r: 0.85, g: 0.13, b: 1.11, a: -1.21}
+      _ShadowColor: {r: 0.5379464, g: 0.44335175, b: 0.764151, a: 1}
+      _SubSurfaceColor: {r: 0.5754717, g: 0.20989674, b: 0.12758099, a: 1}

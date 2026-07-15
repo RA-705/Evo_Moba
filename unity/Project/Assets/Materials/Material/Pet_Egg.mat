@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pet_Egg
+  m_Shader: {fileID: 4800000, guid: 35b60564f62ea8149908f7f8ef87430d, type: 3}
+  m_ShaderKeywords: _LIGHT_TEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EffectTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EnvTex:
+        m_Texture: {fileID: 2800000, guid: a1d64a9f300356047a160684ddbe4aa7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 007db544aee08884dbed27250f03c283, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 4db72b9e0011a7f45a4fbbb1cd073258, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PBRTex:
+        m_Texture: {fileID: 2800000, guid: 25f2679ea1486884da4b849c219a0b97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AO: 1
+      _BackLightScale: 0.66
+      _EffectFactor: 0.85
+      _EffectTexScale: 1
+      _EnvReflectScale: 6.45
+      _EnvRotY: 0.5
+      _FogMaxDistance: 2
+      _FogMinDistance: 0
+      _IsHit: 0
+      _LightScale: 1.8
+      _Metal: 0
+      _PlayerId: 0
+      _Smooth: 0
+      _SpecStrength: 0.055
+      _SubSurfaceColorScale: 0.18
+    m_Colors:
+      _BackCol: {r: 0, g: 0.8, b: 1, a: 0.38}
+      _BackLightColor: {r: 0.53209203, g: 0.28368637, b: 0.7075472, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _EmitColor: {r: 0, g: 0, b: 0, a: 1}
+      _FogColor: {r: 1, g: 1, b: 1, a: 1}
+      _FogDirection: {r: 0, g: 0, b: 0, a: 1}
+      _HitEffectColor: {r: 1, g: 0.4, b: 0.3443, a: 1}
+      _HurtColor: {r: 0, g: 0, b: 0, a: 0}
+      _Light2Color: {r: 1, g: 1, b: 1, a: 1}
+      _Light2Direction: {r: 0, g: 0, b: 0, a: 1}
+      _ShadowColor: {r: 0.4339623, g: 0.38688147, b: 0.38688147, a: 1}
+      _ShadowPlane: {r: 0, g: 1, b: 0, a: 0}
+      _SubSurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+      _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

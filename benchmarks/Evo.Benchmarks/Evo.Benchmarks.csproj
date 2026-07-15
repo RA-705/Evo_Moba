@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Evo.Benchmarks</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <ProjectReference Include="..\..\platform\Evo.Core\src\Evo.Core\Evo.Core.csproj" />
+    <ProjectReference Include="..\..\platform\Evo.Shared\src\Evo.Shared\Evo.Shared.csproj" />
+    <ProjectReference Include="..\..\platform\MateOS.Core\src\MateOS.Core\MateOS.Core.csproj" />
+  </ItemGroup>
+
+</Project>

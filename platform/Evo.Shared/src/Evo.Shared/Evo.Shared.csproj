@@ -1,13 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+    <PackageId>EVO.Shared</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>EVO Core</Authors>
+    <Description>Shared math and networking for EVO: EvoVector3, blittable WorldSnapshot, SnapshotSerializer. Zero-allocation wire protocol.</Description>
+    <PackageTags>math;networking;snapshot;blittable;game</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/EVO-Core/EVO</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\..\..\Evo.Foundation\src\Evo.Foundation\Evo.Foundation.csproj" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
 
 </Project>

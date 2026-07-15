@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - run: dotnet restore Project-EVOLUTION.sln
+
+      - run: dotnet build Project-EVOLUTION.sln --configuration Release --no-restore
+        env:
+          DOTNET_CLI_TELEMETRY_OPTOUT: 1
+
+      - run: dotnet test platform/Evo.Tests/src/Evo.Tests/Evo.Tests.csproj --configuration Release --no-build
+
+  benchmarks:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - run: dotnet run --project benchmarks/Evo.Benchmarks/Evo.Benchmarks.csproj --configuration Release
+
+  pack:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - run: dotnet pack platform/Evo.Foundation/src/Evo.Foundation/Evo.Foundation.csproj --configuration Release
+
+      - run: dotnet pack platform/Evo.Core/src/Evo.Core/Evo.Core.csproj --configuration Release
+
+      - run: dotnet pack platform/Evo.Shared/src/Evo.Shared/Evo.Shared.csproj --configuration Release
+
+      - name: Pack MateOS.Core
+        run: dotnet pack platform/MateOS.Core/src/MateOS.Core/MateOS.Core.csproj --configuration Release
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nuget-packages
+          path: |
+            platform/Evo.Foundation/src/Evo.Foundation/bin/Release/*.nupkg
+            platform/Evo.Core/src/Evo.Core/bin/Release/*.nupkg
+            platform/Evo.Shared/src/Evo.Shared/bin/Release/*.nupkg
+            platform/MateOS.Core/src/MateOS.Core/bin/Release/*.nupkg

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EF_Crystal_01
+  m_Shader: {fileID: 4800000, guid: cb9c5831458bf5c44a3861ec5ba1ec88, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: a7e59a2a1a486ec4aa3f89f36b781f6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: e9c0385cc09fae747bb452f36f96ae14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Brightness: 1
+      _InvFade: 1
+      _Lighten: 2
+      _LightenMain: 0.4
+      _Speed: 12
+      _Speed00: 0
+      _Speed01: 2
+      _Speed02: 11
+    m_Colors:
+      _Color: {r: 0, g: 0, b: 0, a: 0}
+      _Color01: {r: 0.46323532, g: 0.8001015, b: 1, a: 1}
+      _Color02: {r: 1, g: 1, b: 1, a: 1}
+      _Color03: {r: 1, g: 1, b: 1, a: 1}
+      _TintColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}

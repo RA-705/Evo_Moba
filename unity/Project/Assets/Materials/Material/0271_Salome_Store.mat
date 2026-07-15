@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 0271_Salome_Store
+  m_Shader: {fileID: 4800000, guid: 35b60564f62ea8149908f7f8ef87430d, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EffectTex:
+        m_Texture: {fileID: 2800000, guid: 2bcc176c3b46a2745a7f9e9626d504e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EnvTex:
+        m_Texture: {fileID: 2800000, guid: a1d64a9f300356047a160684ddbe4aa7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7b6eee1808b69e64cab1a9a01e9b211f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 14af516b240458c41b324a429b79cbde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PBRTex:
+        m_Texture: {fileID: 2800000, guid: 7db1ad558baa09045895df6acaa8c5ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AO: 0.604
+      _BackLightScale: 0.6
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EnvReflectScale: 1.2
+      _EnvRotY: 0.644
+      _FogMaxDistance: 0.08
+      _FogMinDistance: 1.23
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metal: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Smooth: 0
+      _SmoothnessTextureChannel: 0
+      _SpecStrength: 0.2025
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SubSurfaceColorScale: 0.784
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _BackLightColor: {r: 0.34117648, g: 0.18039216, b: 0.28883865, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EmitColor: {r: 0.735849, g: 0.010412939, b: 0.010412939, a: 1}
+      _FogColor: {r: 0.5377358, g: 0.42866677, b: 0.4733254, a: 1}
+      _FogDirection: {r: 1, g: 0, b: 0, a: 1}
+      _Light2Color: {r: 0.2269491, g: 0.4542886, b: 0.6415094, a: 1}
+      _Light2Direction: {r: 2.89, g: 0.52, b: 2.41, a: 1}
+      _ShadowColor: {r: 0.13678098, g: 0.100391604, b: 0.1509434, a: 1}
+      _SubSurfaceColor: {r: 0.69803923, g: 0.08235292, b: 0.26061717, a: 1}

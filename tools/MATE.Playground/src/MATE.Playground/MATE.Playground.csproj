@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\platform\Evo.Core\src\Evo.Core\Evo.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\platform\Evo.Shared\src\Evo.Shared\Evo.Shared.csproj" />
+    <ProjectReference Include="..\..\..\..\samples\Evo.MOBA\src\Evo.MOBA\Evo.MOBA.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+</Project>
